@@ -1,6 +1,6 @@
 /*global styles*/	
     body{
-		background: #CAC6B1;
+		background: #D8D5C5;
 		font: 14px/1.6 'Lucida Sans Unicode', 'Lucida Grande', Verdana, sans-serif;
 		margin:0 auto;
 		text-align: center;
@@ -59,7 +59,9 @@
 	    height: 51px;
 	    background: url(img/logo1.png) no-repeat;
         }
-    .logo span{
+    h1:after{
+        content: "";
+        display: block;
         position: absolute;
         top: 0; left: 0; bottom: 0; right: 0;
         background: url(img/logo1.png) no-repeat;
@@ -70,7 +72,7 @@
         -o-transition:      opacity 0.8s;
     }    
 
-    .logo:hover span{
+    h1:hover:after {
         opacity: 1;
         }
 
